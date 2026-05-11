@@ -1,5 +1,6 @@
 .clock {
   display: flex;
+  flex-direction: column;
   align-items: center;
   gap: 10px;
   margin-left: auto;
@@ -8,9 +9,8 @@
 
 .clock__item {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  gap: 1px;
+  gap: 8px;
 }
 
 .clock__label {
@@ -22,7 +22,7 @@
 }
 
 .clock__time {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 600;
   letter-spacing: 0.5px;
   font-variant-numeric: tabular-nums;
@@ -30,7 +30,7 @@
 }
 
 .clock__divider {
-  width: 1px;
-  height: 28px;
+  width: 128px;
+  height: 1px;
   background: rgba(255, 255, 255, 0.35);
 }

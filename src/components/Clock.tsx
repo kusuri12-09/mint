@@ -27,7 +27,7 @@ export function Clock() {
       </div>
       <div className="clock__divider" />
       <div className="clock__item">
-        <span className="clock__label">PT</span>
+        <span className="clock__label">PDT</span>
         <span className="clock__time">{formatTime(now, 'America/Los_Angeles')}</span>
       </div>
     </div>
