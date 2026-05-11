@@ -1,0 +1,17 @@
+.region-chip {
+  display: inline-flex;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 2px 8px;
+  border-radius: 100px;
+  background: var(--slate-100);
+  color: var(--slate-600);
+  line-height: 1.6;
+  white-space: nowrap;
+}
+
+.region-chip--today {
+  background: var(--cyan-50);
+  color: var(--cyan-800);
+}
