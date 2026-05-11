@@ -1,0 +1,219 @@
+{
+  "schedule": [
+    {
+      "day": 1,
+      "date": "5/11",
+      "weekday": "일",
+      "region": ["대전", "인천", "SF"],
+      "hotel": "Crown Plaza Union City",
+      "events": [
+        {
+          "time": "12:00",
+          "title": "대덕소프트웨어마이스터고 집결 및 출국 수속",
+          "location": "인천공항"
+        },
+        {
+          "time": "18:00",
+          "title": "기내식 및 샌프란시스코 이동",
+          "note": "약 11시간 비행"
+        },
+        {
+          "time": "13:00",
+          "title": "샌프란시스코 도착 및 입국 심사",
+          "note": "날짜 변경선 통과"
+        },
+        {
+          "time": "오후",
+          "title": "피어39, 롬바드 스트리트, 금문교, 트윈픽스 관광"
+        },
+        {
+          "time": "저녁",
+          "title": "호텔 체크인 및 휴식"
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "date": "5/12",
+      "weekday": "월",
+      "region": ["SF"],
+      "hotel": "Crown Plaza Union City",
+      "events": [
+        {
+          "time": "06:00",
+          "title": "호텔 조식 후 출발"
+        },
+        {
+          "time": "09:00",
+          "title": "몬트레이·솔뱅 이동"
+        },
+        {
+          "time": "11:00",
+          "title": "몬트레이 수족관 투어"
+        },
+        {
+          "time": "13:00",
+          "title": "중식",
+          "note": "현지식"
+        },
+        {
+          "time": "14:00",
+          "title": "UC Berkeley 캠퍼스 및 AI 특강"
+        },
+        {
+          "time": "18:00",
+          "title": "석식",
+          "note": "현지식"
+        },
+        {
+          "time": "20:00",
+          "title": "호텔 복귀 및 휴식"
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "date": "5/13",
+      "weekday": "화",
+      "region": ["SF"],
+      "hotel": "Crown Plaza Union City",
+      "events": [
+        {
+          "time": "10:00",
+          "title": "호텔 조식 후 출발"
+        },
+        {
+          "time": "13:00",
+          "title": "Google 방문 및 Googleplex 견학"
+        },
+        {
+          "time": "14:00",
+          "title": "Computer History Museum 관람"
+        },
+        {
+          "time": "16:30",
+          "title": "Apple Visitor Center 방문"
+        },
+        {
+          "time": "17:30",
+          "title": "KIC SV 방문"
+        },
+        {
+          "time": "18:00",
+          "title": "석식 및 자유시간"
+        },
+        {
+          "time": "밤",
+          "title": "호텔 휴식"
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "date": "5/14",
+      "weekday": "수",
+      "region": ["SF", "Bakersfield"],
+      "hotel": "Fairfield Inn & Suites Bakersfield Central",
+      "events": [
+        {
+          "time": "08:30",
+          "title": "호텔 조식 후 출발"
+        },
+        {
+          "time": "12:00",
+          "title": "요세미티 국립공원 차량 이동"
+        },
+        {
+          "time": "13:00",
+          "title": "요세미티 관광",
+          "note": "엘캐피탄, 터널뷰포인트, 하프돔 등"
+        },
+        {
+          "time": "15:00",
+          "title": "중식",
+          "note": "현지식"
+        },
+        {
+          "time": "17:30",
+          "title": "베이커스필드 이동"
+        },
+        {
+          "time": "20:30",
+          "title": "호텔 체크인 및 휴식"
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "date": "5/15",
+      "weekday": "목",
+      "region": ["LA"],
+      "hotel": "Holiday Inn LA Mirada",
+      "events": [
+        {
+          "time": "08:30",
+          "title": "호텔 조식 후 출발"
+        },
+        {
+          "time": "10:00",
+          "title": "로스앤젤레스 이동"
+        },
+        {
+          "time": "13:00",
+          "title": "유니버설 스튜디오 관광",
+          "note": "종일 자유"
+        },
+        {
+          "time": "16:30",
+          "title": "할리우드 이동"
+        },
+        {
+          "time": "18:00",
+          "title": "그리피스 천문대 방문 및 야경"
+        },
+        {
+          "time": "20:30",
+          "title": "호텔 휴식"
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "date": "5/16",
+      "weekday": "금",
+      "region": ["LA", "인천"],
+      "events": [
+        {
+          "time": "오전",
+          "title": "호텔 조식 후 공항 이동"
+        },
+        {
+          "time": "10:50",
+          "title": "로스앤젤레스 국제공항 출발",
+          "note": "약 13시간 비행"
+        },
+        {
+          "time": "",
+          "title": "기내식 및 휴식"
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "date": "5/17",
+      "weekday": "토",
+      "region": ["인천", "대전"],
+      "events": [
+        {
+          "time": "15:50",
+          "title": "인천국제공항 도착 및 입국 심사"
+        },
+        {
+          "time": "오후",
+          "title": "학교 복귀 후 해산",
+          "note": "대덕소프트웨어마이스터고 도착 예정"
+        }
+      ]
+    }
+  ]
+}
