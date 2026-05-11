@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 10px;
+  gap: 0.625rem;
   margin-left: auto;
   flex-shrink: 0;
 }
@@ -10,27 +10,27 @@
 .clock__item {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 0.5rem;
 }
 
 .clock__label {
-  font-size: 10px;
+  font-size: 0.625rem;
   font-weight: 700;
   opacity: 0.75;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.03125rem;
   line-height: 1;
 }
 
 .clock__time {
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 600;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.03125rem;
   font-variant-numeric: tabular-nums;
   line-height: 1.2;
 }
 
 .clock__divider {
-  width: 128px;
+  width: 8rem;
   height: 1px;
   background: rgba(255, 255, 255, 0.35);
 }
