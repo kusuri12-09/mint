@@ -5,30 +5,49 @@
       "date": "5/11",
       "weekday": "월",
       "region": ["대전", "인천", "SF"],
+      "transport": {
+        "flight": "YP0111"
+      },
       "hotel": "Crown Plaza Union City",
+      "meals": {
+        "breakfast": "",
+        "lunch": "샌드위치+육포",
+        "dinner": "멕시칸"
+      },
       "events": [
         {
           "time": "12:00",
-          "title": "대덕소프트웨어마이스터고 집결 및 출국 수속",
-          "location": "인천공항"
+          "title": "대덕소프트웨어마이스터고등학교 출발"
+        },
+        {
+          "time": "출발 전",
+          "title": "인천공항 1터미널 도착 후 출국 수속"
         },
         {
           "time": "18:00",
-          "title": "기내식 및 샌프란시스코 이동",
-          "note": "약 11시간 비행"
+          "title": "인천국제공항 출발",
+          "note": "비행 11시간 예정 / 기내식 2회"
         },
         {
           "time": "13:00",
-          "title": "샌프란시스코 도착 및 입국 심사",
-          "note": "날짜 변경선 통과"
+          "title": "샌프란시스코 도착 후 현지 안내원 미팅 후 이동"
         },
         {
-          "time": "오후",
-          "title": "피어39, 롬바드 스트리트, 금문교, 트윈픽스 관광"
+          "time": "15:00",
+          "title": "Googleplex 방문"
+        },
+        {
+          "time": "16:15",
+          "title": "KIC SV 특강"
+        },
+        {
+          "time": "18:00",
+          "title": "석식",
+          "note": "찌개류, 생선구이, 김치찌개"
         },
         {
           "time": "저녁",
-          "title": "호텔 체크인 및 휴식"
+          "title": "호텔 체크인 후 휴식"
         }
       ]
     },
@@ -38,36 +57,43 @@
       "weekday": "화",
       "region": ["SF"],
       "hotel": "Crown Plaza Union City",
+      "meals": {
+        "breakfast": "호텔식",
+        "lunch": "한식",
+        "dinner": "한식"
+      },
       "events": [
         {
-          "time": "06:00",
+          "time": "08:00",
           "title": "호텔 조식 후 출발"
         },
         {
           "time": "09:00",
-          "title": "몬트레이·솔뱅 이동"
+          "title": "문화탐방",
+          "note": "롬바드스트릿, 케이블카 탑승"
         },
         {
           "time": "11:00",
-          "title": "몬트레이 수족관 투어"
+          "title": "문화탐방",
+          "note": "오라클 스타디움 투어"
         },
         {
           "time": "13:00",
           "title": "중식",
-          "note": "현지식"
+          "note": "1오차 치폴레 / 2오차 인앤아웃버거"
         },
         {
           "time": "14:00",
-          "title": "UC Berkeley 캠퍼스 및 AI 특강"
+          "title": "UC Berkeley 관람 및 AI 특강"
         },
         {
           "time": "18:00",
           "title": "석식",
-          "note": "현지식"
+          "note": "불고기, 된장찌개, 오징어볶음"
         },
         {
           "time": "20:00",
-          "title": "호텔 복귀 및 휴식"
+          "title": "호텔 휴식"
         }
       ]
     },
@@ -77,33 +103,59 @@
       "weekday": "수",
       "region": ["SF"],
       "hotel": "Crown Plaza Union City",
+      "meals": {
+        "breakfast": "호텔식",
+        "lunch": "현지식",
+        "dinner": "한식"
+      },
       "events": [
         {
           "time": "10:00",
-          "title": "호텔 조식 후 출발"
+          "title": "Google 방문",
+          "group": "1오차"
+        },
+        {
+          "time": "10:00",
+          "title": "Computer History Museum 방문",
+          "group": "2오차"
+        },
+        {
+          "time": "11:30",
+          "title": "Apple Visitor Center 방문",
+          "group": "1오차"
+        },
+        {
+          "time": "11:30",
+          "title": "Apple Visitor Center 방문",
+          "group": "2오차"
         },
         {
           "time": "13:00",
-          "title": "Google 방문 및 Googleplex 견학"
+          "title": "중식",
+          "note": "인앤아웃버거"
         },
         {
           "time": "14:00",
-          "title": "Computer History Museum 관람"
+          "title": "Computer History Museum 관람",
+          "group": "1오차"
+        },
+        {
+          "time": "14:00",
+          "title": "Google 방문",
+          "group": "2오차"
         },
         {
           "time": "16:30",
-          "title": "Apple Visitor Center 방문"
+          "title": "문화탐방",
+          "note": "트윈픽스, 펠리스오브파인아트, 금문교, 피셔맨스워프"
         },
         {
-          "time": "17:30",
-          "title": "KIC SV 방문"
+          "time": "19:00",
+          "title": "석식",
+          "note": "스프, 샌드위치, 피자"
         },
         {
-          "time": "18:00",
-          "title": "석식 및 자유시간"
-        },
-        {
-          "time": "밤",
+          "time": "저녁",
           "title": "호텔 휴식"
         }
       ]
@@ -112,8 +164,13 @@
       "day": 4,
       "date": "5/14",
       "weekday": "목",
-      "region": ["SF", "Bakersfield"],
+      "region": ["SF"],
       "hotel": "Fairfield Inn & Suites Bakersfield Central",
+      "meals": {
+        "breakfast": "호텔식",
+        "lunch": "시내식",
+        "dinner": "뷔페식"
+      },
       "events": [
         {
           "time": "08:30",
@@ -121,25 +178,25 @@
         },
         {
           "time": "12:00",
-          "title": "요세미티 국립공원 차량 이동"
+          "title": "요세미티국립공원 자유중식"
         },
         {
           "time": "13:00",
-          "title": "요세미티 관광",
-          "note": "엘캐피탄, 터널뷰포인트, 하프돔 등"
+          "title": "문화탐방",
+          "note": "요세미티밸리, 터널뷰포인트, 하프돔, 엘카프포인트, 요세미티폭포"
         },
         {
           "time": "15:00",
-          "title": "중식",
-          "note": "현지식"
+          "title": "프레스노 이동"
         },
         {
           "time": "17:30",
-          "title": "베이커스필드 이동"
+          "title": "석식",
+          "note": "뷔페식"
         },
         {
           "time": "20:30",
-          "title": "호텔 체크인 및 휴식"
+          "title": "호텔 휴식"
         }
       ]
     },
@@ -149,27 +206,33 @@
       "weekday": "금",
       "region": ["LA"],
       "hotel": "Holiday Inn LA Mirada",
+      "meals": {
+        "breakfast": "호텔식",
+        "lunch": "자유식(현금지급)",
+        "dinner": "현지식"
+      },
       "events": [
         {
           "time": "08:30",
-          "title": "호텔 조식 후 출발"
+          "title": "호텔 조식 후 L.A로 이동"
         },
         {
-          "time": "10:00",
-          "title": "로스앤젤레스 이동"
+          "time": "10:30",
+          "title": "문화탐방",
+          "note": "할리우드 명성의거리"
         },
         {
-          "time": "13:00",
-          "title": "유니버설 스튜디오 관광",
-          "note": "종일 자유"
+          "time": "11:30",
+          "title": "문화탐방",
+          "note": "유니버설스튜디오 방문 (중식 자유식)"
         },
         {
           "time": "16:30",
-          "title": "할리우드 이동"
+          "title": "애너하임 이동"
         },
         {
           "time": "18:00",
-          "title": "그리피스 천문대 방문 및 야경"
+          "title": "GREP 특강 및 만찬"
         },
         {
           "time": "20:30",
@@ -181,20 +244,25 @@
       "day": 6,
       "date": "5/16",
       "weekday": "토",
-      "region": ["LA", "인천"],
+      "region": ["LA"],
+      "transport": {
+        "flight": "YP0102"
+      },
+      "hotel": "기내박",
+      "meals": {
+        "breakfast": "호텔식",
+        "lunch": "기내식",
+        "dinner": "기내식"
+      },
       "events": [
         {
           "time": "오전",
-          "title": "호텔 조식 후 공항 이동"
+          "title": "호텔 조식 후 공항으로 출발"
         },
         {
           "time": "10:50",
-          "title": "로스앤젤레스 국제공항 출발",
-          "note": "약 13시간 비행"
-        },
-        {
-          "time": "",
-          "title": "기내식 및 휴식"
+          "title": "로스엔젤레스 국제공항 출발",
+          "note": "비행시간 13시간 예정 / 기내식 2회"
         }
       ]
     },
@@ -202,16 +270,25 @@
       "day": 7,
       "date": "5/17",
       "weekday": "일",
-      "region": ["인천", "대전"],
+      "region": ["인천"],
+      "hotel": "기내박",
+      "meals": {
+        "breakfast": "",
+        "lunch": "한식(김치찌개정식)",
+        "dinner": ""
+      },
       "events": [
         {
           "time": "15:50",
-          "title": "인천국제공항 도착 및 입국 심사"
+          "title": "인천국제공항 도착 후 입국수속"
         },
         {
-          "time": "오후",
-          "title": "학교 복귀 후 해산",
-          "note": "대덕소프트웨어마이스터고 도착 예정"
+          "time": "도착 후",
+          "title": "인천공항 근처 김치찌개 정식"
+        },
+        {
+          "time": "이후",
+          "title": "대덕소프트웨어마이스터고 도착 후 해산예정"
         }
       ]
     }
