@@ -9,7 +9,7 @@ import { ErrorScreen } from './components/ErrorScreen';
 import './App.css';
 
 export default function App() {
-  const { schedule, loading, error, retry } = useSchedule();
+  const { schedule, loading, error, fromCache, retry } = useSchedule();
   const [selectedDay, setSelectedDay] = useState<number | null>(null);
 
   const todayDay = getTodayDayNumber(schedule);
@@ -50,6 +50,9 @@ export default function App() {
   return (
     <div className="app">
       <AppHeader />
+      {fromCache && (
+        <div className="app__offline-banner">오프라인 상태 — 저장된 데이터를 표시 중입니다</div>
+      )}
       <main className="app__main">
         {schedule.map(s => (
           <DayCard
