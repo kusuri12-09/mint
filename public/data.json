@@ -112,22 +112,22 @@
         {
           "time": "10:00",
           "title": "Google 방문",
-          "group": "1호차"
+          "note": "1호차"
         },
         {
           "time": "10:00",
           "title": "Computer History Museum 방문",
-          "group": "2호차"
+          "note": "2호차"
         },
         {
           "time": "11:30",
           "title": "Apple Visitor Center 방문",
-          "group": "1호차"
+          "note": "1호차"
         },
         {
           "time": "11:30",
           "title": "Apple Visitor Center 방문",
-          "group": "2호차"
+          "note": "2호차"
         },
         {
           "time": "13:00",
@@ -137,12 +137,12 @@
         {
           "time": "14:00",
           "title": "Computer History Museum 관람",
-          "group": "1호차"
+          "note": "1호차"
         },
         {
           "time": "14:00",
           "title": "Google 방문",
-          "group": "2호차"
+          "note": "2호차"
         },
         {
           "time": "16:30",
